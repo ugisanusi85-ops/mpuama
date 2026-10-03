@@ -5,23 +5,53 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Keluarga MPUAMA</title>
 <style>
-body{margin:0;font-family:sans-serif;background:#fff0f3}
-.box{max-width:420px;margin:auto;padding:20px;background:#ffe4e9;min-height:100vh}
-.h{text-align:center;color:#6d3a1f}
-.c{background:#fff;border-radius:20px;padding:14px;display:flex;gap:14px;margin:14px 0;align-items:center}
-.c img{width:90px;height:90px;border-radius:50%;object-fit:cover}
-.f{text-align:center;background:#d9a0a8;color:#fff;padding:12px;border-radius:20px;margin-top:20px}
+body{margin:0;font-family:'Segoe UI',sans-serif;background:#fff0f2}
+.wrap{max-width:440px;margin:auto;background:#fffaf0;min-height:100vh;position:relative;overflow:hidden}
+.wrap:before{content:"";position:absolute;top:0;left:0;right:0;height:100%;background: url('pohon.jpg') no-repeat top center; background-size:cover; opacity:0.12; pointer-events:none}
+.header{text-align:center;padding:28px 20px 10px;position:relative}
+.header h1{margin:0;color:#5a2a1a;font-size:32px;line-height:1.1}
+.header h1 span{font-size:46px;display:block;letter-spacing:1px}
+.header p{margin:6px 0 0;font-style:italic;color:#7a4a3a}
+.card{display:flex;align-items:center;gap:14px;background:#ffffffcc;border:1px solid #f3d6d6;border-radius:18px;padding:12px 16px;margin:14px 20px;box-shadow:0 4px 12px rgba(0,0,0,.06);position:relative}
+.card img{width:68px;height:68px;border-radius:50%;object-fit:cover;border:2px solid #fff;flex-shrink:0}
+.card b{font-size:18px;color:#3b1f10;display:block}
+.card small{color:#6b4a3a;font-size:13px;line-height:1.3;display:block}
+.footer{text-align:center;padding:18px;color:#8a5a5a;font-size:13px;position:relative}
 </style>
 </head>
 <body>
-<div class="box">
-<h1 class="h">💗 Keluarga MPUAMA</h1>
-<div class="c"><img src="IMG-20250926-WA4272.jpg"><div><b>Papih US</b><br><small>Ayah</small></div></div>
-<div class="c"><img src="IMG-20250927-WA9505.jpg"><div><b>Mamih ASS</b><br><small>Ibu</small></div></div>
-<div class="c"><img src="IMG-20261002-WA5501.jpg"><div><b>AA MMS</b><br><small>Anak Pertama</small></div></div>
-<div class="c"><img src="IMG-20250926-WA4273.jpg"><div><b>AA MAS</b><br><small>Anak Kedua</small></div></div>
-<div class="c"><div style="width:90px;height:90px;border-radius:50%;background:#eef6ee;display:flex;align-items:center;justify-content:center;font-size:40px">🌳</div><div><b>Dede MPUAMA</b><br><small>Si Kecil</small></div></div>
-<div class="f">💗 Penuh Cinta Sejak 2018 💗</div>
+<div class="wrap">
+<div class="header">
+<h1>Keluarga<span>MPUAMA</span></h1>
+<p>Keluarga Kami Penuh Kasih Sayang</p>
+</div>
+
+<div class="card">
+<img src="IMG-20261002-WA5501.jpg">
+<div><b>Papih US</b><small>Ayah • Kepala Keluarga<br>Selalu sabar & penyayang</small></div>
+</div>
+
+<div class="card">
+<img src="IMG-20250927-WA9505.jpg">
+<div><b>Mamih ASS</b><small>Ibu • Pendamping Keluarga<br>Bijaksana & Lembut</small></div>
+</div>
+
+<div class="card">
+<img src="IMG-20250926-WA4272.jpg">
+<div><b>AA MMS</b><small>Anak Pertama • Usia 6 tahun<br>Aktif & Ceria</small></div>
+</div>
+
+<div class="card">
+<img src="IMG-20250926-WA4273.jpg">
+<div><b>AA MAS</b><small>Anak Kedua • Usia 4 tahun<br>Penurut & Manja</small></div>
+</div>
+
+<div class="card">
+<img src="pohon.jpg">
+<div><b>Dede MPUAMA</b><small>Si Kecil • Buah Hati<br>Penyejuk & Lucu</small></div>
+</div>
+
+<div class="footer">💗 Penuh Cinta • Rumah Kita Sejak 2018 💗</div>
 </div>
 </body>
 </html>
